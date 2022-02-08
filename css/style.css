@@ -1,0 +1,59 @@
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav {
+  margin: 20px;
+  padding-top: 25px;
+}
+
+.productlist main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+  gap: 30px;
+  margin-left: 115px;
+}
+
+.productlist main h2 {
+  grid-column: 1/-1;
+  text-align: left;
+}
+
+.product main {
+  display: grid;
+}
+
+.product main .breadcrumbs,
+.product main img {
+  grid-column: 1/-1;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  display: flex;
+  word-spacing: 20px;
+}
+
+.product image {
+  grid-area: 1/1;
+}
+
+.product .purchaseBox {
+  grid-area: 1/5;
+}
+
+body {
+  padding: 0;
+  margin: calc((100vh / 25) * 1.563) calc((100vw / 25) * 1.563);
+  font-weight: 400;
+  line-height: 1.563;
+}
+.letterLinks ol {
+  margin-top: 1rem;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+}
