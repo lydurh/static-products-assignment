@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+body {
+  background-color: #03343f;
+}
+
+h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 4em;
+}
+
+h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+/* logo */
+h4 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+}
+
+p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+dl {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
